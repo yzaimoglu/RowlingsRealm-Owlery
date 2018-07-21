@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Owlery">
+    <output-path>$PROJECT_DIR$/../../Minecraft - Test/plugins</output-path>
+    <root id="archive" name="Owlery.jar">
+      <element id="module-output" name="Owlery" />
+    </root>
+  </artifact>
+</component>

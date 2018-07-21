@@ -1,0 +1,10 @@
+name: Owlery
+author: Firelove
+version: 1.0
+main: me.firelove.rowlingsrealm.owlery.main.Owlery
+depends: [Citizens, SmartInvs]
+
+commands:
+     owlery:
+         description: The only command for the plugin, create or destroy Owleries!
+         aliases: [createowlery, destroyowlery, manageowlery, manageowleries, owleryadmin]
