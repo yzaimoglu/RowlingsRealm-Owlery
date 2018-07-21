@@ -27,6 +27,7 @@ public class MainMenuProvider implements InventoryProvider {
     @Override
     public void init(Player p, InventoryContents contents) {
         contents.fillRow(4, ClickableItem.empty(Methods.itemSubID(160, (short) 15, "§0")));
+        contents.fillRow(5, ClickableItem.empty(Methods.itemSubID(160, (short)0, "§9")));
         String base64_inbox = Players.getInbox(p);
         ItemStack[] inbox_contents = null;
         try {

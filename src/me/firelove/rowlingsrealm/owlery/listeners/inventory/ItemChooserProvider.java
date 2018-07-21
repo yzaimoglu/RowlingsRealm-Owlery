@@ -21,6 +21,7 @@ public class ItemChooserProvider implements InventoryProvider {
     public void init(Player p, InventoryContents contents) {
 
         contents.fillRow(4, ClickableItem.empty(Methods.itemSubID(160, (short)15, "§0")));
+        contents.fillRow(5, ClickableItem.empty(Methods.itemSubID(160, (short)0, "§9")));
 
         Inventory inv = p.getInventory();
         ItemStack[] inv_contents = inv.getContents();
